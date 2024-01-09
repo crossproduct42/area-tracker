@@ -1,0 +1,107 @@
+body{
+    color: white;
+    background-color: #202020;
+}
+
+div{
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#credits{
+    right: 24px;
+    bottom: 16px;
+}
+
+textarea{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 17.5%;
+    height: 50%;
+    resize: vertical;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 400%;
+}
+
+h2{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    font-size: 200%;
+    translate: -50% -200%;
+}
+
+.panel-button{
+    position: static;
+    display: inline-block;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 12.5%;
+    aspect-ratio: 1 / 1;
+}
+
+#panel{
+    width: 30%;
+    background-color: #808080;
+    background-position: center;
+    color: black;
+}
+
+#subpanel{
+    width: 25%;
+    bottom: 0;
+    background-position: center;
+    aspect-ratio: 1 / 1;
+}
+
+#current-map{
+    background-position: center;
+    top: 0;
+    height: 30%;
+    aspect-ratio: 1 / 1;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+.door{
+    width: 10%;
+    height: 10%;
+    z-index: 20;
+    translate: -50% -50%;
+}
+
+.subpanel-button{
+    background-color: limegreen;
+    border: black solid 4px;
+    width: 5%;
+    height: 5%;
+    translate: -50% -50%;
+}
+
+.line{
+    background-color: green;
+    width: 75%;
+    height: 2%;
+    transform-origin: left center;
+    translate: 0 -50%;
+}
+
+.exit{
+    background-image: url("images/unknown.png");
+    width: 53.33%;
+    height: 2000%;
+    translate: -50% -50%;
+    top: 50%;
+    left: 100%;
+}

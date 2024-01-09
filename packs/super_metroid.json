@@ -1,0 +1,246 @@
+{
+    "name": "Super Metroid",
+    "author": "crossproduct (2024)",
+    "credit": "Assets ©1994 by Nintendo<br>Maps by Nordub, courtesy of <a href='https://randommetroidsolver.pythonanywhere.com/' target='_blank'>VARIA Randomizer</a>",
+    "init": 0,
+    "maps":
+        [
+            {
+                "name": "Crateria",
+                "map": "packs/sm/maps/Crateria.png",
+                "icon": "packs/sm/icons/Crateria.png",
+                "doors": [
+                    {
+                        "x": "98%",
+                        "y": "15%",
+                        "theta": 0
+                    },
+                    {
+                        "x": "88%",
+                        "y": "23%",
+                        "theta": 315
+                    },
+                    {
+                        "x": "37%",
+                        "y": "95%",
+                        "theta": 225
+                    },
+                    {
+                        "x": "2%",
+                        "y": "27%",
+                        "theta": 210
+                    },
+                    {
+                        "x": "17%",
+                        "y": "27%",
+                        "theta": 330
+                    }
+                ]
+            },
+            {
+                "name": "Green Brinstar",
+                "map": "packs/sm/maps/GreenBrinstar.png",
+                "icon": "packs/sm/icons/GreenBrinstar.png",
+                "doors": [
+                    {
+                        "x": "16%",
+                        "y": "24%",
+                        "theta": 90
+                    },
+                    {
+                        "x": "56%",
+                        "y": "66%",
+                        "theta": 30
+                    },
+                    {
+                        "x": "98%",
+                        "y": "76%",
+                        "theta": 0
+                    }
+                ]
+            },
+            {
+                "name": "Red Brinstar",
+                "map": "packs/sm/maps/RedBrinstar.png",
+                "icon": "packs/sm/icons/RedBrinstar.png",
+                "doors": [
+                    {
+                        "x": "69%",
+                        "y": "10%",
+                        "theta": 90
+                    },
+                    {
+                        "x": "79%",
+                        "y": "34%",
+                        "theta": 60
+                    },
+                    {
+                        "x": "49%",
+                        "y": "61%",
+                        "theta": 180
+                    },
+                    {
+                        "x": "79%",
+                        "y": "80%",
+                        "theta": 45
+                    },
+                    {
+                        "x": "98%",
+                        "y": "80%",
+                        "theta": 7.5
+                    },
+                    {
+                        "x": "86%",
+                        "y": "93%",
+                        "theta": 330
+                    }
+                ]
+            },
+            {
+                "name": "Kraid's Lair",
+                "map": "packs/sm/maps/KraidLair.png",
+                "icon": "packs/sm/icons/KraidLair.png",
+                "doors": [
+                    {
+                        "x": "10%",
+                        "y": "48%",
+                        "theta": 150
+                    }
+                ]
+            },
+            {
+                "name": "Wrecked Ship",
+                "map": "packs/sm/maps/WreckedShip.png",
+                "icon": "packs/sm/icons/WreckedShip.png",
+                "doors": [
+                    {
+                        "x": "3%",
+                        "y": "48%",
+                        "theta": 135
+                    },
+                    {
+                        "x": "86%",
+                        "y": "66%",
+                        "theta": 225
+                    }
+                ]
+            },
+            {
+                "name": "Upper Norfair",
+                "map": "packs/sm/maps/UpperNorfair.png",
+                "icon": "packs/sm/icons/UpperNorfair.png",
+                "doors": [
+                    {
+                        "x": "21%",
+                        "y": "32%",
+                        "theta": 135
+                    },
+                    {
+                        "x": "32%",
+                        "y": "32%",
+                        "theta": 45
+                    },
+                    {
+                        "x": "98%",
+                        "y": "45%",
+                        "theta": 0
+                    },
+                    {
+                        "x": "69%",
+                        "y": "67%",
+                        "theta": 315
+                    },
+                    {
+                        "x": "37%",
+                        "y": "64%",
+                        "theta": 270
+                    }
+                ]
+            },
+            {
+                "name": "Crocomire",
+                "map": "packs/sm/maps/Crocomire.png",
+                "icon": "packs/sm/icons/Crocomire.png",
+                "doors": [
+                    {
+                        "x": "74%",
+                        "y": "30%",
+                        "theta": 90
+                    }
+                ]
+            },
+            {
+                "name": "Lower Norfair",
+                "map": "packs/sm/maps/LowerNorfair.png",
+                "icon": "packs/sm/icons/LowerNorfair.png",
+                "doors": [
+                    {
+                        "x": "66%",
+                        "y": "19%",
+                        "theta": 0
+                    },
+                    {
+                        "x": "50%",
+                        "y": "50%",
+                        "theta": 135
+                    }
+                ]
+            },
+            {
+                "name": "West Maridia",
+                "map": "packs/sm/maps/WestMaridia.png",
+                "icon": "packs/sm/icons/WestMaridia.png",
+                "doors": [
+                    {
+                        "x": "18%",
+                        "y": "90%",
+                        "theta": 270
+                    },
+                    {
+                        "x": "50%",
+                        "y": "96%",
+                        "theta": 315
+                    },
+                    {
+                        "x": "76%",
+                        "y": "46%",
+                        "theta": 0
+                    },
+                    {
+                        "x": "24%",
+                        "y": "25%",
+                        "theta": 180
+                    }
+                ]
+            },
+            {
+                "name": "East Maridia",
+                "map": "packs/sm/maps/EastMaridia.png",
+                "icon": "packs/sm/icons/EastMaridia.png",
+                "doors": [
+                    {
+                        "x": "10%",
+                        "y": "64%",
+                        "theta": 180
+                    },
+                    {
+                        "x": "66%",
+                        "y": "12%",
+                        "theta": 0
+                    }
+                ]
+            },
+            {
+                "name": "Tourian",
+                "map": "packs/sm/maps/Tourian.png",
+                "icon": "packs/sm/icons/Tourian.png",
+                "doors": [
+                    {
+                        "x": "43%",
+                        "y": "4%",
+                        "theta": 180
+                    }
+                ]
+            }
+        ]
+}

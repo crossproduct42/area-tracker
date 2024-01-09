@@ -1,0 +1,851 @@
+{
+    "name": "La-Mulana",
+    "author": "crossproduct (2024)",
+    "credit": "Assets by GR3 Project (2006), Nigoro (2012)",
+    "init": 16,
+    "maps":
+        [
+            {
+                "name": "Gate of Guidance",
+                "map": "packs/lm/maps/1a.png",
+                "icon": "packs/lm/icons/1a.png",
+                "doors": [
+                    {
+                        "x": "37%",
+                        "y": "30%",
+                        "theta": 135,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "92%",
+                        "y": "39%",
+                        "theta": 60,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "62%",
+                        "theta": 315,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "8%",
+                        "y": "70%",
+                        "theta": 270,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "8%",
+                        "y": "45%",
+                        "theta": 210,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Mausoleum of the Giants",
+                "map": "packs/lm/maps/2a.png",
+                "icon": "packs/lm/icons/2a.png",
+                "doors": [
+                    {
+                        "x": "19%",
+                        "y": "32%",
+                        "theta": 135,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "94%",
+                        "y": "53%",
+                        "theta": 60,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "21%",
+                        "y": "62%",
+                        "theta": 270,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "44%",
+                        "y": "47%",
+                        "theta": 90,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Temple of the Sun",
+                "map": "packs/lm/maps/3a.png",
+                "icon": "packs/lm/icons/3a.png",
+                "doors": [
+                    {
+                        "x": "23%",
+                        "y": "29%",
+                        "theta": 90,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "10%",
+                        "y": "37%",
+                        "theta": 135,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "92%",
+                        "y": "48%",
+                        "theta": 30,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "92%",
+                        "y": "59%",
+                        "theta": 330,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "61%",
+                        "theta": 210,
+                        "xType": "door",
+                        "nType": "door"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "45%",
+                        "theta": 60,
+                        "xType": "door",
+                        "nType": "none",
+                        "unchangeable": "true",
+                        "exit": 10
+                    },
+                    {
+                        "x": "50%",
+                        "y": "72%",
+                        "theta": 315,
+                        "xType": "down",
+                        "nType": "none",
+                        "unchangeable": "true",
+                        "exit": 6
+                    }      
+                ]
+            },
+            {
+                "name": "Spring in the Sky",
+                "map": "packs/lm/maps/4a.png",
+                "icon": "packs/lm/icons/4a.png",
+                "doors": [
+                    {
+                        "x": "52%",
+                        "y": "15%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "none",
+                        "unchangeable": "true",
+                        "exit": 16
+                    },
+                    {
+                        "x": "17%",
+                        "y": "54%",
+                        "theta": 240,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "35%",
+                        "y": "94%",
+                        "theta": 330,
+                        "xType": "down",
+                        "nType": "none",
+                        "unchangeable": "true",
+                        "exit": 2
+                    }
+                ]
+            },
+            {
+                "name": "Inferno Cavern",
+                "map": "packs/lm/maps/5a.png",
+                "icon": "packs/lm/icons/5a.png",
+                "doors": [
+                    {
+                        "x": "65%",
+                        "y": "30%",
+                        "theta": 120,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "92%",
+                        "y": "38%",
+                        "theta": 30,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "63%",
+                        "theta": 180,
+                        "xType": "door",
+                        "nType": "door"
+                    },
+                    {
+                        "x": "51%",
+                        "y": "70%",
+                        "theta": 240,
+                        "xType": "down",
+                        "nType": "none",
+                        "unchangeable": "true",
+                        "exit": 18
+                    },
+                    {
+                        "x": "66%",
+                        "y": "62%",
+                        "theta": 330,
+                        "xType": "none",
+                        "nType": "up"
+                    }            
+                ]
+            },
+            {
+                "name": "Chamber of Extinction",
+                "map": "packs/lm/maps/6a.png",
+                "icon": "packs/lm/icons/6a.png",
+                "doors": [
+                    {
+                        "x": "4%",
+                        "y": "39%",
+                        "theta": 135,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "4%",
+                        "y": "49%",
+                        "theta": 225,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "72%",
+                        "y": "63%",
+                        "theta": 120,
+                        "xType": "door",
+                        "nType": "door"
+                    },
+                    {
+                        "x": "84%",
+                        "y": "63%",
+                        "theta": 60,
+                        "xType": "up",
+                        "nType": "down"
+                    }
+                ]
+            },
+            {
+                "name": "Twin Labyrinths (West)",
+                "map": "packs/lm/maps/7a.png",
+                "icon": "packs/lm/icons/7a.png",
+                "doors": [
+                    {
+                        "x": "11%",
+                        "y": "38%",
+                        "theta": 120,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "70%",
+                        "y": "28%",
+                        "theta": 90,
+                        "xType": "none",
+                        "nType": "down",
+                        "unchangeable": "true",
+                        "exit": 2
+                    },
+                    {
+                        "x": "70%",
+                        "y": "50%",
+                        "theta": 0,
+                        "xType": "right",
+                        "nType": "left",
+                        "unchangeable": "true",
+                        "exit": 14
+                    },
+                    {
+                        "x": "30%",
+                        "y": "72%",
+                        "theta": 270,
+                        "xType": "down",
+                        "nType": "up"
+                    }
+                ]
+            },
+            {
+                "name": "Endless Corridor",
+                "map": "packs/lm/maps/8a.png",
+                "icon": "packs/lm/icons/8a.png",
+                "doors": [
+                    {
+                        "x": "75%",
+                        "y": "28%",
+                        "theta": 0,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "10%",
+                        "y": "28%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "none"
+                    },
+                    {
+                        "x": "90%",
+                        "y": "40%",
+                        "theta": 90,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "31%",
+                        "y": "71%",
+                        "theta": 270,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "65%",
+                        "y": "28%",
+                        "theta": 135,
+                        "xType": "none",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Gate of Illusion",
+                "map": "packs/lm/maps/1b.png",
+                "icon": "packs/lm/icons/1b.png",
+                "doors": [
+                    {
+                        "x": "37%",
+                        "y": "37%",
+                        "theta": 135,
+                        "xType": "door",
+                        "nType": "door"
+                    },
+                    {
+                        "x": "80%",
+                        "y": "37%",
+                        "theta": 60,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "93%",
+                        "y": "70%",
+                        "theta": 300,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "37%",
+                        "y": "62%",
+                        "theta": 240,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "46%",
+                        "theta": 0,
+                        "xType": "right",
+                        "nType": "left"
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard of the Giants",
+                "map": "packs/lm/maps/2b.png",
+                "icon": "packs/lm/icons/2b.png",
+                "doors": [
+                    {
+                        "x": "23%",
+                        "y": "30%",
+                        "theta": 135,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "52%",
+                        "y": "37%",
+                        "theta": 75,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "94%",
+                        "y": "53%",
+                        "theta": 75,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "64%",
+                        "y": "63%",
+                        "theta": 315,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "21%",
+                        "y": "62%",
+                        "theta": 270,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "38%",
+                        "y": "46%",
+                        "theta": 195,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Temple of Moonlight",
+                "map": "packs/lm/maps/3b.png",
+                "icon": "packs/lm/icons/3b.png",
+                "doors": [
+                    {
+                        "x": "26%",
+                        "y": "26%",
+                        "theta": 90,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "60%",
+                        "y": "37%",
+                        "theta": 45,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "25%",
+                        "y": "65%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "42%",
+                        "y": "65%",
+                        "theta": 330,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Tower of the Goddess",
+                "map": "packs/lm/maps/4b.png",
+                "icon": "packs/lm/icons/4b.png",
+                "doors": [
+                    {
+                        "x": "7%",
+                        "y": "15%",
+                        "theta": 105,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "18%",
+                        "y": "15%",
+                        "theta": 75,
+                        "xType": "none",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "7%",
+                        "theta": 45,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "88%",
+                        "y": "7%",
+                        "theta": 315,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "33%",
+                        "y": "71%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "33%",
+                        "y": "93%",
+                        "theta": 345,
+                        "xType": "door",
+                        "nType": "door"
+                    }            
+                ]
+            },
+            {
+                "name": "Tower of Ruin",
+                "map": "packs/lm/maps/5b.png",
+                "icon": "packs/lm/icons/5b.png",
+                "doors": [
+                    {
+                        "x": "9%",
+                        "y": "47%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "92%",
+                        "y": "37%",
+                        "theta": 15,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "92%",
+                        "y": "62%",
+                        "theta": 345,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "77%",
+                        "y": "31%",
+                        "theta": 135,
+                        "xType": "door",
+                        "nType": "door"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "72%",
+                        "theta": 270,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Chamber of Birth",
+                "map": "packs/lm/maps/6b.png",
+                "icon": "packs/lm/icons/6b.png",
+                "doors": [
+                    {
+                        "x": "7%",
+                        "y": "46%",
+                        "theta": 270,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "60%",
+                        "y": "60%",
+                        "theta": 0,
+                        "xType": "right",
+                        "nType": "left"
+                    }
+                ]
+            },
+            {
+                "name": "Twin Labyrinths (East)",
+                "map": "packs/lm/maps/7b.png",
+                "icon": "packs/lm/icons/7b.png",
+                "doors": [
+                    {
+                        "x": "70%",
+                        "y": "28%",
+                        "theta": 60,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "30%",
+                        "y": "28%",
+                        "theta": 90,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "30%",
+                        "y": "50%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "right",
+                        "unchangeable": "true",
+                        "exit": 6
+                    },
+                    {
+                        "x": "70%",
+                        "y": "72%",
+                        "theta": 270,
+                        "xType": "down",
+                        "nType": "up"
+                    }
+                ]
+            },
+            {
+                "name": "Dimensional Corridor",
+                "map": "packs/lm/maps/8b.png",
+                "icon": "packs/lm/icons/8b.png",
+                "doors": [
+                    {
+                        "x": "38%",
+                        "y": "77%",
+                        "theta": 105,
+                        "xType": "door",
+                        "nType": "none"
+                    },
+                    {
+                        "x": "38%",
+                        "y": "92%",
+                        "theta": 285,
+                        "xType": "none",
+                        "nType": "up"
+                    }
+                ]
+            },
+            {
+                "name": "Surface",
+                "map": "packs/lm/maps/0.png",
+                "icon": "packs/lm/icons/0.png",
+                "doors": [
+                    {
+                        "x": "51%",
+                        "y": "65%",
+                        "theta": 0,
+                        "xType": "right",
+                        "nType": "left"
+                    },
+                    {
+                        "x": "79%",
+                        "y": "50%",
+                        "theta": 90,
+                        "xType": "door",
+                        "nType": "door"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "50%",
+                        "theta": 180,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "66%",
+                        "y": "50%",
+                        "theta": 135,
+                        "xType": "down",
+                        "nType": "up"
+                    }
+                ]
+            },
+            {
+                "name": "Inferno Cavern (Echidna)",
+                "map": "packs/lm/maps/echidna.png",
+                "icon": "packs/lm/icons/echidna.png",
+                "doors": [
+                    {
+                        "x": "36%",
+                        "y": "30%",
+                        "theta": 30,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "22%",
+                        "y": "30%",
+                        "theta": 330,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Shiva's Crucifix",
+                "map": "packs/lm/maps/shiva.png",
+                "icon": "packs/lm/icons/shiva.png",
+                "doors": [
+                    {
+                        "x": "82%",
+                        "y": "44%",
+                        "theta": 105,
+                        "xType": "up",
+                        "nType": "down"
+                    }
+                ]
+            },
+            {
+                "name": "Extinction (Underworld)",
+                "map": "packs/lm/maps/underworld.png",
+                "icon": "packs/lm/icons/underworld.png",
+                "doors": [
+                    {
+                        "x": "62%",
+                        "y": "38%",
+                        "theta": 90,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "29%",
+                        "y": "38%",
+                        "theta": 330,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Chamber of Birth (Swords)",
+                "map": "packs/lm/maps/swords.png",
+                "icon": "packs/lm/icons/swords.png",
+                "doors": [
+                    {
+                        "x": "40%",
+                        "y": "32%",
+                        "theta": 45,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "38%",
+                        "y": "43%",
+                        "theta": 135,
+                        "xType": "door",
+                        "nType": "door"
+                    },
+                    {
+                        "x": "83%",
+                        "y": "53%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "right"
+                    }
+                ]
+            },
+            {
+                "name": "Gate of Time (Surface)",
+                "map": "packs/lm/maps/0c.png",
+                "icon": "packs/lm/icons/0c.png",
+                "doors": [
+                    {
+                        "x": "60%",
+                        "y": "50%",
+                        "theta": 0,
+                        "xType": "right",
+                        "nType": "left"
+                    }
+                ]
+            },
+            {
+                "name": "Gate of Time (Guidance)",
+                "map": "packs/lm/maps/1c.png",
+                "icon": "packs/lm/icons/1c.png",
+                "doors": [
+                    {
+                        "x": "65%",
+                        "y": "20%",
+                        "theta": 180,
+                        "xType": "left",
+                        "nType": "right"
+                    },
+                    {
+                        "x": "15%",
+                        "y": "80%",
+                        "theta": 270,
+                        "xType": "down",
+                        "nType": "up"
+                    }
+                ]
+            },
+            {
+                "name": "Gate of Time (Mausoleum)",
+                "map": "packs/lm/maps/2c.png",
+                "icon": "packs/lm/icons/2c.png",
+                "doors": [
+                    {
+                        "x": "7%",
+                        "y": "33%",
+                        "theta": 90,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "93%",
+                        "y": "52%",
+                        "theta": 270,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "50%",
+                        "y": "67%",
+                        "theta": 180,
+                        "xType": "door",
+                        "nType": "door"
+                    }
+                ]
+            },
+            {
+                "name": "Shrine of the Mother",
+                "map": "packs/lm/maps/9.png",
+                "icon": "packs/lm/icons/9.png",
+                "doors": [
+                    {
+                        "x": "42%",
+                        "y": "27%",
+                        "theta": 90,
+                        "xType": "up",
+                        "nType": "down"
+                    },
+                    {
+                        "x": "76%",
+                        "y": "72%",
+                        "theta": 255,
+                        "xType": "down",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "10%",
+                        "y": "45%",
+                        "theta": 240,
+                        "xType": "none",
+                        "nType": "up"
+                    },
+                    {
+                        "x": "90%",
+                        "y": "45%",
+                        "theta": 300,
+                        "xType": "none",
+                        "nType": "up"
+                    }
+                ]
+            }
+        ]
+}

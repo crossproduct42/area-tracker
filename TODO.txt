@@ -1,0 +1,6 @@
+Write TODO list
+Add eraser button (ie, replace doors w/ ? Medallion)
+Rewrite everything :)
+Animations
+Make guide for JSON format
+Write read-me
